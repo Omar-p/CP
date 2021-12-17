@@ -61,7 +61,6 @@ public class TheseusAndMinotaur {
         }
         dfs(minotaur - 'A', 1, theseus - 'A');
         writer.println(res);
-        writer.flush();
       }
       writer.close();
     }
